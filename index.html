@@ -10,7 +10,7 @@
 <body>
     <header>
         <section id="navbar">
-            <nav>
+            <nav class="contenedor">
                 <img src="assets/images/logo.png">
                 <ul>
                     <li>
@@ -30,66 +30,72 @@
         </section>
     </header>
     <section id="hero">
-        <h1>Encontra lo ultimo de computadoras en MaxiTech</h1>
+        <div class="contenedor">
+            <h1>Encontra lo ultimo de computadoras en MaxiTech</h1>
+        </div>
     </section>
     <section id="features">
-        <div>
-            <img src="assets/images/pc.png">
-            <h1>Arma o elegi tu PC</h1>
-            <p>Elegi la mejor PC segun tus preferencias</p>
+        <div class="contenedor">
+            <div>
+                <img src="assets/images/pc.png">
+                <h1>Arma o elegi tu PC</h1>
+                <p>Elegi la mejor PC segun tus preferencias</p>
+            </div>
+            <div>
+                <img src="assets/images/carrito.png">
+                <h1>Compra online</h1>
+                <p>Compra desde tu hogar en cuestion de minutos</p>
+            </div>
+            <div>
+                <img src="assets/images/entrega.png">
+                <h1>Entregas rapidas</h1>
+                <p>Recibi tu compra en cuestion de horas</p>
+            </div>
+            <div>
+                <img src="assets/images/ayuda.png">
+                <h1>Ayuda</h1>
+                <p>Comunicate con nuestros expertos para aclarar tus dudas</p>
+            </div>
         </div>
-        <div>
-            <img src="assets/images/carrito.png">
-            <h1>Compra online</h1>
-            <p>Compra desde tu hogar en cuestion de minutos</p>
-        </div>
-        <div>
-            <img src="assets/images/entrega.png">
-            <h1>Entregas instantáneas</h1>
-            <p>Recibi tu compra en cuestion de horas</p>
-        </div>
-        <div>
-            <img src="assets/images/ayuda.png">
-            <h1>Ayuda</h1>
-            <p>Comunicate con nuestros expertos para aclarar tus dudas</p>
-        </div>
-        
     </section>
     <section id="call-to-action">
-        <h1>¿Estas interesado?</h1>
-        <p>Hace click en el boton de abajo y encontra tu PC favorita</p>
-        <button>Compra ya</button>
+        <div class="contenedor">
+            <h1>¿Estas interesado?</h1>
+            <p>Hace click en el boton de abajo y encontra tu PC favorita</p>
+            <button>Compra ya</button>
+        </div>
     </section>
     <section id="formulario">
-        <div>
-            <h1>¿Quieres recibir notificaciones sobre los ultimos lanzamientos?</h1>
-            <p>Unete a nuestra comunidad llenando el siguiente formulario</p>
-        </div>    
-        <form>
-            <label for="nombre">Nombre:</label>
-            <input type="text" name="nombre" required>
-            <label for="nombre">Email:</label>
-            <input type="text" name="email" required>
-            <label for="nombre">Sexo:</label>
-            <select required>
-                <option value="F">F</option>
-                <option value="M">M</option>
-                <option value="Otro">Otro</option>
-            </select>
-            <label for="nombre">Comentario:</label>
-            <textarea>Dejenos su comentario...</textarea>
-            <button type="submit">Enviar</button>
-        </form>
+        <div class="contenedor">
+            <div>
+                <h1>¿Quieres recibir notificaciones sobre los ultimos lanzamientos?</h1>
+                <p>Unete a nuestra comunidad llenando el siguiente formulario</p>
+            </div>    
+            <form>
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <input type="text" name="email" placeholder="Email" required>
+                <select required>
+                    <option disabled selected>Sexo</option>
+                    <option value="F">F</option>
+                    <option value="M">M</option>
+                    <option value="Otro">Otro</option>
+                </select>
+                <textarea placeholder="Dejenos su comentario..."></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
     </section>
 
     <footer>
-        <div>
-            <img src="assets/images/twitter.png">
-            <img src="assets/images/facebook.png">
-            <img src="assets/images/instagram.png">
-            <img src="assets/images/whatsapp.png">
+        <div class="contenedor">
+            <div>
+                <img src="assets/images/twitter.png">
+                <img src="assets/images/facebook.png">
+                <img src="assets/images/instagram.png">
+                <img src="assets/images/whatsapp.png">
+            </div>
+            <p> © 2022 Maximiliano Coletti</p>
         </div>
-        <p> Copyright</p>
     </footer>
     <script src="assets/js/main.js"></script>
 </body>

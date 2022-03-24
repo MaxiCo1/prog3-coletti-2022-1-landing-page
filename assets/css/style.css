@@ -3,11 +3,18 @@ header{
 }
 body{
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+.contenedor{
+    max-width: 1200px;
+}
+
 
 nav{
 display: flex;
 justify-content: space-between;
+margin: 0 auto;
 }
 
 nav img{
@@ -17,7 +24,7 @@ nav ul{
     list-style: none;
     display: inherit;
     justify-content: space-between;
-    width: 50%;
+    width: 40%;
     height: inherit;
     align-items: center;
     height: 10vh;
@@ -41,34 +48,46 @@ nav ul li a{
 color: whitesmoke;
 font-size: 4em;
 text-align: center;
+margin: 0 auto;
+width: 70%;
 }
 
 #features{
-    display: flex;
     height: 50vh;
+}
+
+#features .contenedor{
+    display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
+    height: 100%;
 }
 
 #features img{
-    width: 50%;
+    width: 30%;
 }
 
-#features div{
+#features .contenedor div{
     width: 20%;
     text-align: center;
 }
 
 #call-to-action{
     height: 50vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     background-color: #2f4250;
     color: white;
 }
+
+#call-to-action .contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+
 #call-to-action button{
     padding: 1.2em;
     background-color: #1b2730;
@@ -79,11 +98,16 @@ text-align: center;
 
 #formulario{
     height: 100vh;
+}
+#formulario .contenedor{
     display: flex;
+    height: 100%;
     justify-content: space-around;
     align-items: center;
+    margin: 0 auto;
 }
-#formulario div{
+
+#formulario .contenedor div{
     width: 40%;
     text-align: center
 }
@@ -103,7 +127,7 @@ form input{
     height: 5vh;
 }
 form select{
-    width: 10%;
+    height: 5vh;
 }
 form textarea{
     height: 10vh;
@@ -130,13 +154,15 @@ footer{
 footer img{
 width: 10%;
 }
-footer p{
-    margin-right: 1em;
+
+footer .contenedor{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
 }
-footer div{
+footer .contenedor div{
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 15%;
-    margin-left: 1em;
 }
