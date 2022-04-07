@@ -171,3 +171,7 @@ footer .contenedor div{
     justify-content: space-between;
     width: 15%;
 }
+
+.loading_spinner{
+    display: none;
+}
