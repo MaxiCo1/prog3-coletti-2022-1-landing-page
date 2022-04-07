@@ -97,7 +97,7 @@ width: 70%;
 }
 
 #formulario{
-    height: 100vh;
+    height: 50vh;
 }
 #formulario .contenedor{
     display: flex;
@@ -129,6 +129,11 @@ form input{
 form select{
     height: 5vh;
 }
+
+form select option:first-child{
+    color: gray;
+}
+
 form textarea{
     height: 10vh;
 }
